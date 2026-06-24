@@ -3,7 +3,7 @@ import Input from '@mui/joy/Input'
 import Textarea from '@mui/joy/Textarea'
 import Button from '@mui/joy/Button'
 import Typography from '@mui/joy/Typography'
-import type { CreateTaskDto } from '@/types/task'
+import type { CreateTaskDto } from '../../types/task'
 import { Box } from '@mui/joy'
 
 interface TaskFormProps {

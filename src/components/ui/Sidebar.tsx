@@ -1,9 +1,9 @@
 import Box from '@mui/joy/Box'
 import Typography from '@mui/joy/Typography'
-import type { FilterStatus } from '@/components/tasks/TaskFilters'
+import type { FilterStatus } from '../../components/tasks/TaskFilters'
 import { useState } from 'react'
 import { IconButton } from '@mui/joy'
-import { useAuth } from '@/context/AuthContext' 
+import { useAuth } from '../../context/AuthContext' 
 import { useNavigate } from 'react-router-dom'
 
 interface SidebarProps {

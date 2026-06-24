@@ -1,7 +1,7 @@
 import { useState, useEffect, useCallback } from 'react'
 import toast from 'react-hot-toast'
-import { tasksApi } from '@/api/endpoints/tasks'
-import type { Task, CreateTaskDto, UpdateTaskDto } from '@/types/task'
+import { tasksApi } from '../../src/api/endpoints/tasks'
+import type { Task, CreateTaskDto, UpdateTaskDto } from '../types/task'
 
 export function useTasks() {
   const [tasks, setTasks] = useState<Task[]>([])

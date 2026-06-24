@@ -1,8 +1,8 @@
 import { useState } from 'react'
 import Box from '@mui/joy/Box'
 import Typography from '@mui/joy/Typography'
-import LoginForm from '@/components/auth/LoginForm'
-import RegisterForm from '@/components/auth/RegisterForm'
+import LoginForm from '../components/auth/LoginForm'
+import RegisterForm from '../components/auth/RegisterForm'
 import { useNavigate } from 'react-router-dom'
 
 export default function AuthPage() {

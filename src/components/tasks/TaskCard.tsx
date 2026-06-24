@@ -8,7 +8,7 @@ import Box from '@mui/joy/Box'
 import Chip from '@mui/joy/Chip'
 import DeleteOutlineIcon from '@mui/icons-material/DeleteOutline'
 import EditOutlinedIcon from '@mui/icons-material/EditOutlined'
-import type { Task } from '@/types/task'
+import type { Task } from '../../types/task'
 import TaskEditModal from './TaskEditModal'
 
 interface TaskCardProps {

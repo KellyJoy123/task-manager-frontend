@@ -6,7 +6,7 @@ import Typography from '@mui/joy/Typography'
 import FormControl from '@mui/joy/FormControl'
 import FormLabel from '@mui/joy/FormLabel'
 import Alert from '@mui/joy/Alert'
-import { useAuth } from '@/context/AuthContext'
+import { useAuth } from '../../context/AuthContext'
 
 interface RegisterFormProps {
   onSwitch: () => void

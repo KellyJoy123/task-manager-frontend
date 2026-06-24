@@ -9,7 +9,7 @@ import Button from '@mui/joy/Button'
 import FormControl from '@mui/joy/FormControl'
 import FormLabel from '@mui/joy/FormLabel'
 import Stack from '@mui/joy/Stack'
-import type { Task } from '@/types/task'
+import type { Task } from '../../types/task'
 
 interface TaskEditModalProps {
   open: boolean

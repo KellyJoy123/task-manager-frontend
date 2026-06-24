@@ -2,7 +2,7 @@ import Box from '@mui/joy/Box'
 import Typography from '@mui/joy/Typography'
 import CircularProgress from '@mui/joy/CircularProgress'
 import TaskCard from './TaskCard'
-import type { Task, UpdateTaskDto } from '@/types/task'
+import type { Task, UpdateTaskDto } from '../../types/task'
 
 interface TaskListProps {
   tasks: Task[]
